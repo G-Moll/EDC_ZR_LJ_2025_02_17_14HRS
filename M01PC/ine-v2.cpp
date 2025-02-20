@@ -19,11 +19,11 @@ int main() {
 			cout << "Te han marcado el pulgar" << endl;
 		}
 		else {
-			cout << "No puedes votar porque te corresponde otro distrito" << endl;
+			cout << "No puedes votar, te corresponde otro distrito" << endl;
 		}
 	}
 	else {
-		cout << "No puedes votar porque tu INE no es valido" << endl;
+		cout << "No puedes votar, tu INE no es valido" << endl;
 	}
 	return 0;
 }
