@@ -2,8 +2,6 @@
 using namespace std;
 
 int main() {
-	cout << "CPP App" << endl; // Sentence
-
 	// INE number, District number
 	int ine_number = 234;
 	int district_number = 78;
