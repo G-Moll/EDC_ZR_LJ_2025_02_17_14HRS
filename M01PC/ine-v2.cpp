@@ -6,11 +6,12 @@ int main() {
 	int ine_number = 234;
 	int district_number = 78;
 
-	// Validate INE number & District number
+	// Validate INE number
 	cout << "::: VALIDANDO INE..." << endl;
 	if( ine_number > 0 ) {
 		cout << "Tu INE es valido" << endl;
 		
+		// Validate District number
 		cout << "::: VALIDANDO DISTRITO..." << endl;
 		if( district_number == 20 ) {
 			cout << "Puedes votar" << endl;
