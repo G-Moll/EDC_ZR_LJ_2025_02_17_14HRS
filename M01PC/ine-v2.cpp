@@ -10,6 +10,7 @@ int main() {
 	cout << "::: VALIDANDO INE..." << endl;
 	if( ine_number > 0 ) {
 		cout << "Tu INE es valido" << endl;
+		
 		cout << "::: VALIDANDO DISTRITO..." << endl;
 		if( district_number == 20 ) {
 			cout << "Puedes votar" << endl;
