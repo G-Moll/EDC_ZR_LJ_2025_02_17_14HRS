@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-    /*
-        Se ofrecen cursos de
+    /*  Se ofrecen cursos de
         Dibujo y Computación
         para niños.
         
@@ -14,8 +13,7 @@ using namespace std;
         en el curso de dibujo,
         los demás niños sólo
         pueden inscribirse
-        al curso de computación.
-    */
+        al curso de computación. */
 int main() {
 
 
