@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-/*	Los trabajadores pueden acumular distintos premios/bonos según sus ventas mensuales:
+/*	Los trabajadores pueden acumular distintos
+	premios/bonos según sus ventas mensuales:
 		15mil: bono de 2mil
 		25mil: bono de 5mil
 		50mil: bono de 7mil
