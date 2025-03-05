@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // EXPRESSIONS
-	cout << 1 + 1;
+    cout << 1 + 1;
 
     return 0;
 }
