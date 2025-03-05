@@ -4,7 +4,6 @@ using namespace std;
 int main() {
     //                   0    1    2    3    4    5
     char alphabet[] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
-    //                  0   1    2   3   4
     cout << alphabet[ 0 ] << endl;
     cout << alphabet[ 6 ] << endl;
 
@@ -12,6 +11,7 @@ int main() {
      cout << "index "<< i << ": " << alphabet[ i ] << endl;
     }
 
+    //                  0   1    2   3   4  5   6  7  8   9
     int numbers[] = { -10, 15, -20, 20, 28, 0, -5, 7, 3, 37 };
     for( int n = 0; n < 10; n++ ) {
         if( numbers[ n ] >= 0 ) {
