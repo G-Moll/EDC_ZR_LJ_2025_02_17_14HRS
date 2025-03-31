@@ -1,0 +1,51 @@
+* {
+	font-family: Arial;
+	font-weight: normal;
+	color: gray;
+}
+
+div {
+	border: 1px solid lightgrey;
+	padding: 4px;
+	margin: 4px;
+}
+
+.wrapper {
+	border-color: crimson;
+}
+
+.header,
+.content,
+.footer {
+	border-color: cornflowerblue;
+}
+
+.title-content,
+.block,
+.social,
+.copy {
+	border-color: lightgreen;
+}
+
+.block-h {
+	background-color: lightgreen;
+	width: 28%;
+	height: 220px;
+	float: left;
+}
+
+.social img {
+	background-color: cornflowerblue;
+	width: 20px;
+	height: 20px;
+}
+.copy p {
+	color: orange;
+	text-align: center;
+}
+
+.cf {
+	position: relative;
+	display: block;
+	clear: both;
+}
