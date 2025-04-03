@@ -1,0 +1,18 @@
+div {
+	border: 1px solid lightgrey;
+	padding: 4px;
+	margin: 4px;
+}
+
+.header,
+.content,
+.footer {
+    border-color: cornflowerblue;
+}
+
+.title-content,
+.block,
+.social,
+.copy {
+    border-color: lightgreen;
+}
