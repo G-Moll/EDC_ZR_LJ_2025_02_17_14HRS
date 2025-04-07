@@ -1,0 +1,24 @@
+/* Mobile 480px */
+@media screen and (max-width:480px) {
+    body {
+        background-color: crimson;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:481px) and (max-width:1199px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: cornflowerblue;
+    }
+}
+
+body {
+
+}

@@ -1,0 +1,23 @@
+10MP
+20MP (Tamaño final de imagen)
+
+Resolution  120dpi dots per inch
+Resolution  120ppp puntos por pulgada
+
+Imagen 1" 1000dpi 1MP
+Imagen 1" 100dpi  
+
+300
+
+Resolution
+96		Mac
+72		PC        1920 x 1080 FHD
+				  1600 x 900  HD+
+				  1280 x 720  HD
+				  1200
+
+Pixel Density
+120		Android   600      360
+400	    		  3840 x 2160 4K
+
+
