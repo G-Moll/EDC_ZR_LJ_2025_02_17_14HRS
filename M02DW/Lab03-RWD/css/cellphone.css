@@ -1,0 +1,8 @@
+/* Mobile 480px */
+@media screen and (max-width:480px) {
+    body { background-color: crimson; }
+    h1 { font-size: 2.8em; }
+    p { font-size: 1.8em; }
+    img { width: 95%; display: block; margin: auto;  }
+    .wrapper { padding: 1em;  }
+}

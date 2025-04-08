@@ -1,24 +1,15 @@
-/* Mobile 480px */
-@media screen and (max-width:480px) {
-    body {
-        background-color: crimson;
-    }
+/* general styles */
+html, body {
+    margin: 0;
+    font-family: Calibri;
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
 }
 
-/* Tablet */
-@media screen and (min-width:481px) and (max-width:1199px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-/* Desktop */
-@media screen and (min-width:1200px) {
-    body {
-        background-color: cornflowerblue;
-    }
-}
-
-body {
-
+.cf {
+    position: relative;
+    display: block;
+    clear: both;
 }
