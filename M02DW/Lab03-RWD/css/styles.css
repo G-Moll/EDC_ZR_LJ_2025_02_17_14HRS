@@ -6,6 +6,29 @@ html, body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
+    margin: 0;
+}
+
+body {
+    background-image: url(../imgs/tree-branch.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.wrapper {}
+
+.header {}
+
+.content {}
+.block {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.block img {
+    background-color: white;
 }
 
 .cf {

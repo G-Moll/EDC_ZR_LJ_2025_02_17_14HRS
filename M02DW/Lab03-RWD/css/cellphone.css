@@ -1,8 +1,37 @@
 /* Mobile 480px */
 @media screen and (max-width:480px) {
     body { background-color: crimson; }
-    h1 { font-size: 2.8em; }
+    
     p { font-size: 1.8em; }
-    img { width: 95%; display: block; margin: auto;  }
-    .wrapper { padding: 1em;  }
+
+    .wrapper {}
+
+    .header {}
+    .header h1 {
+        font-size: 2.8em;
+        text-align: center;
+    }
+
+    .content {  }
+    .content h3 { font-size: 2.4em; }
+
+    .content .block {
+        padding: 1em;
+        margin: 1em;
+        border-radius: 0.25em;
+    }
+    .content .block img {
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 1em;
+    }
+
+    .footer {
+        padding: 0 1em;        
+    }
+    .footer p {
+        text-align: right;
+        margin: 0 0 0.25em 0;
+    }
 }
