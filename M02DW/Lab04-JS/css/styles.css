@@ -1,0 +1,15 @@
+.format {
+    font-family: impact;
+    font-size: 2.5em;
+    background-color: crimson;
+    color: white;
+    padding: 0.25em;
+    cursor: pointer;
+}
+
+.thumb {
+    width: 240px;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 0 2px 3px gray;
+}
