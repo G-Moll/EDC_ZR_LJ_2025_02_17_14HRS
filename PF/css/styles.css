@@ -1,0 +1,154 @@
+div {
+    /*border: 1px solid gray;
+    padding: 4px;
+    margin: 4px;*/
+}
+
+html, body {
+    margin: 0;
+    font-size: 1em;
+    font-family: Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.cf {
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width: 1040px;
+    margin: auto;
+}
+
+.header {
+    font font-family: Pattaya;
+    text-align: center;
+}
+
+.main-title {
+    color: rgb(125, 70, 35);
+}
+
+.input-search {
+    border-radius: 10px 0 0 10px;
+    border-color: rgb(125, 70, 35);
+}
+        
+.content-menu {
+    background-color: rgb(180, 150, 115);
+    font font-family: Roboto;
+    text-align: center;
+    padding: 16px;
+}
+.content-menu a {
+    color: white;    
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.block-header {
+    background-image: url(../img/portada.jpg);
+    background-position: center;
+}
+.block-header * {
+    color: white;
+    padding: 40px 0;
+}
+
+.content-dos {
+    font font-family: Roboto;
+/*    font-size: 5em;*/
+    text-align: center;
+    font-palette: white;
+}
+
+.block-section {
+    text-align: center;
+    height: 500px;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 20px 0;
+}
+.block-books {
+    width: 1720px;
+}
+.section-title {
+    text-align: left;
+    color: rgb(125, 70, 35);
+}
+
+.block {
+    float: left;
+    padding: 20px;
+}
+.block img{
+    width: 300px;
+}
+
+.price {
+    color: rgb(125, 70, 35);
+}
+
+.btn {
+    background-color: rgb(145,25,10);
+    color: white;
+    padding: 8px 16px;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+.content-cinco {
+    padding: 8px;
+}
+
+.two-columns {
+    width: 45%;
+}
+.two-columns-left {
+    float: left;
+}
+.two-columns-right {
+    float: right;
+}
+.two-columns img {
+    width: 100%;
+}
+            
+
+.footer {
+    background-color: rgb(180, 150, 115);
+    color: white;
+    font font-family: Roboto;
+/*    font-size: 2.8em;*/
+    text-align: center;
+}
+
+.column {
+    float: left;
+    text-align: left;
+    width: 320px;
+    margin-left: 16px;
+    padding: 24px 0;
+}
+
+.social-icon {
+    width: 24px;
+}
+
+.footer-title {
+    font-size: 1.1em;
+    border-bottom: solid 1px white;
+}
+       
+.copy p {
+    text-align: center;
+    margin: 0 0 0.25em 0;
+    position: relative;
+    display: block;
+    clear: both;
+}
