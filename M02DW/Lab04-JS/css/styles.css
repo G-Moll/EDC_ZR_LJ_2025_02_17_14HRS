@@ -13,3 +13,18 @@
     background-color: white;
     box-shadow: 0 2px 3px gray;
 }
+
+.green {
+    padding: 4px;
+    background-color: lightgreen;
+    color: teal;
+    font-family: Arial;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.gold {
+    background-color: gold;
+}
