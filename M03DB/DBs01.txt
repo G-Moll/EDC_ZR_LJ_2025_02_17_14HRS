@@ -1,0 +1,27 @@
+Desarrollo
+    - Persistencia
+        - Databases
+            - Relacionales (SQL: Structured Query Language)
+                - Servidor: RDBMS Relational Database Management System
+                    - MySQL
+                    - Access
+                    - Oracle
+                    - SQL Server
+            - No-Relacionales (MongoDB: JS)
+                - Servidor
+                    - MongoDB
+                    - CouchDB
+        - Archivos
+
+    - CRUD
+        - Create   Creation Query            
+        - Read     Selection Query        
+        - Update   Update Query            
+        - Delete   Deletion Query            
+    - API REST (endpoints)
+        - www.pilares.com/alumnos/create
+        - www.pilares.com/alumnos/select
+        - www.pilares.com/alumnos/select/rdc102045hdf
+        - www.pilares.com/alumnos/read
+        - www.pilares.com/alumnos/update
+        - www.pilares.com/alumnos/delete

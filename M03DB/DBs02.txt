@@ -1,0 +1,6 @@
+1) Arrancar MySQL (Server)
+2) Conectarse a MySQL (Server)
+3) Mostrar las DBs
+4) Crear/Usar una DBs
+5) Crear/Usar una Tabla
+6) Crear/Leer/Actualizar/Eliminar datos

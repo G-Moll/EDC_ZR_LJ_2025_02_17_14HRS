@@ -1,0 +1,33 @@
+- XAMPP/WAMP/Laragon/AppServ/Bitnami
+    - Instaladores de Aplicaciones
+    - Administradores de Servidores
+
+- MySQL (PostGresSQL/SQL Server/Oracle/MySQLite/Access)
+    - Servidor Databases SQL
+    - RDBMS
+
+- SQL
+    - Lenguaje para consultas de Databases
+    - Structured Query Language
+
+- Databases
+    - Es un conjunto de elementos que está compuesto por
+        - Tablas
+        - Procedimientos Almacenados
+        - Schemas
+        - Views
+    - Es un sistema de persistencia
+
+- Tables
+    - Conjunto de información organizada a partir de:
+        - Campos: Conjuntos de datos del mismo tipo
+        - Registros: Conjunto de datos de un individuo
+
+- Cmd (Shell)
+    - Aplicación de Comandos
+    - Ejecutamos 2 Aplicaciones
+        - mysqld: Arrancar el Servidor MySQL
+        - mysql: Solicitar información del Servidor MySQL
+
+- DBeaver/TablePlus/MySQL Workbench
+    - Cliente de Servidores de DBs SQL
