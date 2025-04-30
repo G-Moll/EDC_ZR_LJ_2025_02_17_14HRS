@@ -1,0 +1,8 @@
+ERD
+Entity Relation Diagram
+    - Entities
+        - Rectángulo
+    - Attributes
+        - Círculos
+    - Relations
+        - Rombos

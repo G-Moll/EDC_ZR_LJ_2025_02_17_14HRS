@@ -1,0 +1,31 @@
+Database
+    Editorial
+
+Entidades
+    Sucursal
+          (Atributos)
+        - Domicilio
+        - Teléfono
+        - Código
+    Empleado
+          (Atributos)
+        - Nombre
+        - Apellidos
+        - RFC
+        - Teléfono
+    Revista
+          (Atributos)
+        - Título
+        - Núm Registro
+        - Periodicidad
+        - Tipo
+        - Sección
+        - Título Sección
+        - Extensión Sección
+    Periodistas
+          (Atributos)
+        - Nombre
+        - Apellidos
+        - RFC
+        - Teléfono
+        - Especialidad
