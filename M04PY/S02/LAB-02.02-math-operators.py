@@ -1,10 +1,10 @@
-numOne = float( input( "Captura el primer número: " ) )
-numTwo = float( input( "Captura el segundo número: " ) )
+num_one = float( input( "Captura el primer número: " ) )
+num_two = float( input( "Captura el segundo número: " ) )
 
-print( "El primer número es ", numOne )
-print( "El segundo número es ", numTwo )
-print( "Suma", numOne + numTwo )
-print( "Resta", numOne - numTwo )
-print( "Multiplicación", numOne * numTwo )
-print( "División", numOne / numTwo )
+print( "El primer número es ", num_one )
+print( "El segundo número es ", num_two )
+print( "Suma", num_one + num_two )
+print( "Resta", num_one - num_two )
+print( "Multiplicación", num_one * num_two )
+print( "División", num_one / num_two )
 

@@ -1,6 +1,6 @@
-numOne = float( input( "Captura el primer número: " ) )
-numTwo = float( input( "Captura el segundo número: " ) )
-numThree = float( input( "Captura el tercer número: " ) )
+num_one = float( input( "Captura el primer número: " ) )
+num_two = float( input( "Captura el segundo número: " ) )
+num_three = float( input( "Captura el tercer número: " ) )
 
-average = ( numOne + numTwo + numThree ) / 3
+average = ( num_one + num_two + num_three ) / 3
 print( "El promedio es: ", average )
