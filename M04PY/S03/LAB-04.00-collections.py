@@ -13,12 +13,25 @@ group = [
 ]
 print( group )
 
-# Lista
-some_list = [ 10, 20, 80, "a", "b", "c" ]
+# Lista que contiene distintos tipos de datos
+some_list = [
+    10, 20, 80,
+    { 
+        "a":{},
+        "b":[ "c", { "name": "JHS" }, [ True, False ] ]
+    }
+]
 print( some_list )
 
-# Diccionarios que contienen distintos tipos de datos
-dict_one = { "a": 10, "b": True, "c": [], "d": {}  }
-dict_two = { "a": 1, "b": False, "c": [], "d": {}  }
-print( dict_one, dict_two )
+# Diccionario que contiene distintos tipos de datos
+dict_one = {
+    "a": 10,
+    "b": True,
+    "c": [
+        [ { "a":[] }, { "b":{ "c":[] } } ]
+        [ { "x":{} }, { "y":{ "z":{} } } ]
+    ],
+    "d": {}
+}
+print( dict_one )
 
