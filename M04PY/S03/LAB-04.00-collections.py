@@ -1,37 +1,48 @@
+# Lista
+notes = [ 10, 5, 7, 8.7, 6.5 ]
+print( "LISTA: ", notes )
+
 # Diccionario
 student = {
     "name": "Joshua",
-    "notes": [ 10, 8, 6, 7, 2.8]
+    "notes": [ 10, 8, 6, 7, 2.8 ]
 }
-print( student )
+print( "\nDICCIONARIO: ", student )
 
 # Lista que contiene Diccionarios
-group = [
-    { "name": "Joshua", "notes": [ 1 ]  },
-    { "name": "Martha", "notes": [ 2, 5 , 5 ]  },
-    { "name": "Pedro", "notes": [ 10, 0 ]  }
+groupStudents = [
+    { "name": "Joshua", "notes": [ 1 ] },
+    { "name": "Martha", "notes": [ 2, 5 , 5 ] },
+    { "name": "Pedro", "notes": [ 10, 0 ] }
 ]
-print( group )
+print( "\nLISTA DE DICCIONARIOS: ", groupStudents )
+
+# Diccionario que contiene Listas
+groupNotes = {
+    "students": [ "Joshua", "Paul", "Mark", "John", "Luke" ],
+    "final_notes": [ 10, 9.5, 8.7, 9.3, 8.3 ],
+    "approved": [ True, True, True, True, True ]
+}
+print( "\nDICCIONARIO DE LISTAS: ", groupNotes )
 
 # Lista que contiene distintos tipos de datos
-some_list = [
+complex_list = [
     10, 20, 80,
     { 
-        "a":{},
-        "b":[ "c", { "name": "JHS" }, [ True, False ] ]
+        "a": {},
+        "b": [ "c", { "name": "JHS" }, [ True, False ] ]
     }
 ]
-print( some_list )
+print( "\nLISTA COMPLEJA/COMPUESTA: ", complex_list )
 
 # Diccionario que contiene distintos tipos de datos
-dict_one = {
+complex_dict = {
     "a": 10,
     "b": True,
     "c": [
-        [ { "a":[] }, { "b":{ "c":[] } } ]
-        [ { "x":{} }, { "y":{ "z":{} } } ]
+        [ { "a": [] }, { "b": { "c": [] } } ],
+        [ { "x": {} }, { "y": { "z": {} } } ]
     ],
     "d": {}
 }
-print( dict_one )
-
+print( "\nDICTIONARIO COMPLEJO/COMPUESTO: ", complex_dict )
