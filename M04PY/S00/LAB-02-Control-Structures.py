@@ -8,3 +8,4 @@ if age >= 18:
         print( "no son iguales" )
 else:
     print( "No Pudiste votar" )
+

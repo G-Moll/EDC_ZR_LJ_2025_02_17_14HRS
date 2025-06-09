@@ -1,3 +1,7 @@
+# LISTA o ARREGLOS se estructuran con corchetes: []
+# DICCIONARIOS u OBJETOS se estructuran con llaves: {}
+# TUPLAS se estructuran con paréntesis: ()
+
 # Lista
 notes = [ 10, 5, 7, 8.7, 6.5 ]
 print( "LISTA: ", notes )

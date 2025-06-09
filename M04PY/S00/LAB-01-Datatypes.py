@@ -2,6 +2,7 @@ age = 30
 name = "Joshua"
 
 print( age, name )
+# True False
 
 # Operators
 # + - / * % **
@@ -9,7 +10,6 @@ print( age, name )
 # > < >= <= <>
 # Not And Or
 
-# True False
 
 
 
