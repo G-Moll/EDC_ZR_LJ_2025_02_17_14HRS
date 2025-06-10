@@ -1,5 +1,22 @@
-group = {}
-students_name = [ "Joshua", "Peter", "Luke", "Mathew", "Paul", "Mark" ]
+group = {
+    # "a": "Some value",
+    # "b": [ 10, True ],
+    # "c": {
+    #     "x": 1,
+    #     "y": [ 20, 30 ],
+    #     "z": { "m": False, "l": [ 12, False, "One" ]  }
+    # }
+}
+# print( group[ "c" ][ "z" ][ "l" ][ 2 ] )
+# print( group[ "c" ][ "y" ][ 1 ] )
+# print( group[ "c" ][ "y" ] )
+# print( group[ "c" ][ "x" ] )
+# print( group[ "b" ][ 0 ] )
+# print( group[ "b" ][ 1 ] )
+# print( group )
+# print( group[ "a" ] )
+
+students_name = [ "Joshua", "Peter", "Luke", "Mathew", "Paul", "Mark", "John", "Apollo" ]
 
 print( "ADD KEYS( AND VALUES) TO DICTIONARY" )
 

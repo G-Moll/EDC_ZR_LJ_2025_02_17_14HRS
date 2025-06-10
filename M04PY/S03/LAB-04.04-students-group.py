@@ -10,21 +10,15 @@
 
 #     - Considerar cuando ya existe un alumno con cierto nombre dentro del grupo
 
-students_groups = {}
-students_quantity = 2
-# students_quantity = int( input( "Cuántos alumnos capturarás" ) )
+students_group = {}
+students_quantity = int( input( "Número de alumnos: " ) )
 
 for student in range( students_quantity ):
     current_student_name = input( "Nombre del alumno: " )
-    current_student_notes = []
-    print( student )
+    students_group[ current_student_name ] = []
 
+print( students_group )
 
-group = {
-    "joshua": [ 10, 5, 7 ],
-    "peter": [ 8 ],
-    "luke": [ 10, 6.5 ]
-}
 
 
 
