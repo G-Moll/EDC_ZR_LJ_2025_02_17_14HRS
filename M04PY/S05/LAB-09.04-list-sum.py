@@ -2,9 +2,9 @@
 
 # Ejercicio 0904 (1.5 puntos)
 #     - Obtener la suma de todos los elementos en la lista.
-list_numbers_one = [ 4, 6, 7, 90, 15 ]
+list_numbers_one = [ 4, 6, 7, 90, 15, 20, 7, 46 ]
 list_numbers_two = [ 40, 60, 7, 90, 15 ]
-list_numbers_bis = [ 40, 60, 7, 80, 3 ]
+list_numbers_bis = [ 7, 80, 3 ]
 
 def sumList( list_numbers ):
     list_sum = 0
