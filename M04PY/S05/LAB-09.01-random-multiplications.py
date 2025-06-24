@@ -11,8 +11,6 @@
 
 import random
 
-user_results = { "right": 0, "wrong": 0, "matches": [] }
-
 def randomMultiplication():
     attempt = {}
     attempt[ "num_one" ] = random.randint( 1, 10 )
@@ -21,6 +19,7 @@ def randomMultiplication():
     return attempt
 
 def promptUser():
+    attempt_results = { "right": 0, "wrong": 0, "matches": [] }
     num = 0
     while num < 3:
         current_multiplication = randomMultiplication()
@@ -31,17 +30,50 @@ def promptUser():
         user_answer = int( input( f"Resultado de multiplicar { num_one } x { num_two }: " ) )
 
         if user_answer != mult_numbers:
-            user_results[ "wrong" ] += 1 
+            attempt_results[ "wrong" ] += 1 
         else:
-            user_results[ "right" ] += 1 
-        user_results[ "matches" ].append( { "pc": mult_numbers, "user": user_answer, "matched": mult_numbers == user_answer } )
+            attempt_results[ "right" ] += 1
+
+        attempt_results[ "matches" ].append( { "pc": mult_numbers, "user": user_answer, "matched": mult_numbers == user_answer } )
         num += 1
 
-    return "Preguntas completadas"
+    return attempt_results
+
+def showResults( data_results ):
+    answers = "\n"
+    for n in data_results[ 'matches' ]:
+        # current_value = ""
+        # if n[ 'matched' ] == True:
+        #     current_value = "Sí"
+        #     n[ 'matched' ] = "Sí"
+        # else:
+        #     current_value = "No"
+        #     n[ 'matched' ] = "No"
+
+        # answers += f"PC: { n[ 'pc' ] }, Usuario: { n[ 'user' ] }, Coincide: { current_value }\n"
+        
+        answers += f"\tPC: { n[ 'pc' ] }, Usuario: { n[ 'user' ] }, Coincide: { 'Sí' if n[ 'matched' ] else 'No' }\n"
+
+    results = f"""
+Aciertos: { data_results[ 'right' ] }
+Desaciertos:  { data_results[ 'wrong' ] }
+Preguntas:  { answers }
+    """
+    return results
 
 
-def showResults():
-    print( user_results )
+# user_results = promptUser()
+# data_results = showResults( user_results )
+# print( data_results )
 
-promptUser()
-showResults()
+print( showResults( promptUser() ) )
+
+
+
+# Operador Ternario Python
+# "Sí" if True else "No"
+# "Sí" if False else "No"
+
+# Operador Ternario Otros lenguajes
+# True ? "Sí" : "No"
+# False ? "Sí" : "No"
