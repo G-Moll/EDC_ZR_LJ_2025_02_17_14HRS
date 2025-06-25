@@ -21,7 +21,7 @@ def randomMultiplication():
 def promptUser():
     attempt_results = { "right": 0, "wrong": 0, "matches": [] }
     num = 0
-    while num < 3:
+    while num < 10:
         current_multiplication = randomMultiplication()
         num_one = current_multiplication[ "num_one" ]
         num_two = current_multiplication[ "num_two" ]
@@ -71,8 +71,13 @@ print( showResults( promptUser() ) )
 
 
 # Operador Ternario Python
-# "Sí" if True else "No"
-# "Sí" if False else "No"
+# "Sí" if 1 == 1 else "No"
+# "Sí" if 2 == 1 else "No"
+
+# if 1 == 1:
+#     "Sí" 
+# else:
+#     "No"
 
 # Operador Ternario Otros lenguajes
 # True ? "Sí" : "No"
