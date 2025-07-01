@@ -16,16 +16,47 @@
 #                 - Devuelve un valor lógico indicando si es mayor de edad
 
 class Person:
-    name: str
-    age: int
-    rfc: str
+    __name: str
+    __age: int
+    __rfc: str
 
     def __init__( self, name, age, rfc ):
-        self.name = name
-        self.age = age
-        self.rfc = rfc
-        print( f"Hola soy { self.name } { self.rfc }, tengo { self.age } años" )
+        self.__name = name
+        self.__age = age
+        self.__rfc = rfc
 
-personOne = Person( "Joshua", 30, "ABC123" )
-personTwo = Person( "Luke", 25, "XYZ456" )
-personBis = Person( "John", 18, "NML147" )
+    def mostrar( self ):
+        return f"Hola soy { self.name } { self.rfc }, tengo { self.age } años"
+
+    def esMayordeEdad( self ):
+        return self.age >= 18
+
+    @property
+    def name( self ):
+        return self.__name
+    @name.setter
+    def name( self, new_name ):
+        self.__name = new_name
+
+    @property
+    def age( self ):
+        return self.__age
+    @age.setter
+    def age( self, new_age ):
+        self.__age = new_age
+
+    @property
+    def rfc( self ):
+        return self.__rfc
+    @rfc.setter
+    def rfc( self, new_rfc  ):
+        self.__rfc = new_rfc
+
+personOne = Person( "Joshua", 17, "ABC123" )
+print( personOne.mostrar() )
+print( personOne.esMayordeEdad() )
+
+# personTwo = Person( "Luke", 25, "XYZ456" )
+# personBis = Person( "John", 18, "NML147" )
+
+
