@@ -1,6 +1,7 @@
 *.exe
 */*.exe
 .gitignore
+__pycache__
 M03-DBS
 
 

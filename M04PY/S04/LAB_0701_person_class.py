@@ -10,9 +10,9 @@
 #             - Un constructor, donde los datos pueden estar vacíos.
 #             - Los setters y getters para cada uno de los atributos.
 #             - Hay que validar las entradas de datos.
-#             - mostrar():
+#             - showInfo():
 #                 - Muestra los datos de la persona.
-#             - esMayorDeEdad():
+#             - isLegalAge():
 #                 - Devuelve un valor lógico indicando si es mayor de edad
 
 class Person:
@@ -25,10 +25,10 @@ class Person:
         self.__age = age
         self.__rfc = rfc
 
-    def mostrar( self ):
+    def showInfo( self ):
         return f"Hola soy { self.name } { self.rfc }, tengo { self.age } años"
 
-    def esMayordeEdad( self ):
+    def isLegalAge( self ):
         return self.age >= 18
 
     @property
@@ -52,9 +52,9 @@ class Person:
     def rfc( self, new_rfc  ):
         self.__rfc = new_rfc
 
-personOne = Person( "Joshua", 17, "ABC123" )
-print( personOne.mostrar() )
-print( personOne.esMayordeEdad() )
+# personOne = Person( "Joshua", 17, "ABC123" )
+# print( personOne.showInfo() )
+# print( personOne.isLegalAge() )
 
 # personTwo = Person( "Luke", 25, "XYZ456" )
 # personBis = Person( "John", 18, "NML147" )
